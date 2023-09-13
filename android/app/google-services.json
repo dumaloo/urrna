@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613925403508",
+    "project_id": "phonenologin-ae10b",
+    "storage_bucket": "phonenologin-ae10b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613925403508:android:0de022b19c58db835c4a21",
+        "android_client_info": {
+          "package_name": "com.example.sih_wool_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaF7E7Qp9njW2-uF2-DdRS9503KbyNxo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
