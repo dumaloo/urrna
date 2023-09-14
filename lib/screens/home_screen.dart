@@ -17,11 +17,11 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    WoolNewsScreen(),
-    QualityAssuranceScreen(),
-    WoolEducationScreen(),
-    ExampleScreen(),
-    ExampleScreen(),
+    const WoolNewsScreen(),
+    const QualityAssuranceScreen(),
+    const WoolEducationScreen(),
+    const ExampleScreen(),
+    const ExampleScreen(),
   ];
 
   @override
@@ -87,6 +87,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
 //Example Screen
 class ExampleScreen extends StatelessWidget {
+  const ExampleScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     // Your Example screen content goes here
