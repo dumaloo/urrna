@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = [
     const WoolNewsScreen(),
     const QualityAssuranceScreen(),
-    const WoolEducationScreen(),
+    WoolEducationScreen(),
     const ExampleScreen(),
     const ExampleScreen(),
   ];
@@ -37,12 +37,12 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               ap.userSignOut().then(
                     (value) => Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const WelcomeScreen(),
-                  ),
-                ),
-              );
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const WelcomeScreen(),
+                      ),
+                    ),
+                  );
             },
             icon: const Icon(Icons.exit_to_app),
           ),
