@@ -47,7 +47,8 @@ dependencies:
   flutterflow_widgets: ^0.0.7
   carousel_slider: ^4.2.1
   video_player: ^2.7.1
-  flutter_charts: ^0.5.1
+  youtube_player_flutter: ^8.1.2
+
 
 dev_dependencies:
   flutter_test:

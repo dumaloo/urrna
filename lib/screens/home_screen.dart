@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    const WoolNewsScreen(),
+    WoolNewsScreen(),
     const QualityAssuranceScreen(),
     WoolEducationScreen(),
     const ExampleScreen(),
