@@ -26,7 +26,7 @@ class _OtpScreenState extends State<OtpScreen> {
         child: isLoading == true
             ? const Center(
                 child: CircularProgressIndicator(
-                  color: Colors.purple,
+                  color: Colors.blue,
                 ),
               )
             : Center(
@@ -42,18 +42,16 @@ class _OtpScreenState extends State<OtpScreen> {
                           child: const Icon(Icons.arrow_back),
                         ),
                       ),
-                      Container(
-                        width: 200,
-                        height: 200,
-                        padding: const EdgeInsets.all(20.0),
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.purple.shade50,
+
+                        // padding: const EdgeInsets.all(20.0),
+                        ClipOval(
+                          child: Image.asset(
+                            "assets/WhatsApp Image 2023-09-16 at 00.41.21.jpeg",
+                            width: 200,
+                            height: 200,
+                            fit: BoxFit.cover,
+                          ),
                         ),
-                        child: Image.asset(
-                          "assets/image2.png",
-                        ),
-                      ),
                       const SizedBox(height: 20),
                       const Text(
                         "Verification",
@@ -82,7 +80,7 @@ class _OtpScreenState extends State<OtpScreen> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
                             border: Border.all(
-                              color: Colors.purple.shade200,
+                              color: Colors.blue.shade200,
                             ),
                           ),
                           textStyle: const TextStyle(
@@ -126,7 +124,7 @@ class _OtpScreenState extends State<OtpScreen> {
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
-                          color: Colors.purple,
+                          color: Colors.blue,
                         ),
                       ),
                     ],

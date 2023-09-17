@@ -45,20 +45,23 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  width: 150,
-                  height: 150,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.purple.shade50,
+                // Container(
+                //   width: 150,
+                //   height: 150,
+                //   decoration: BoxDecoration(
+                //     shape: BoxShape.circle,
+                //   ),
+                  ClipOval(
+                    child: Image.asset(
+                      "assets/sheep.jpeg",
+                      width: 200,
+                      height: 200,
+                      fit: BoxFit.cover,
+                    ),
                   ),
-                  child: Image.asset(
-                    "assets/image2.png",
-                  ),
-                ),
                 const SizedBox(height: 20),
                 const Text(
-                  "Login for the Wool Industry",
+                  "Login",
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -76,7 +79,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 ),
                 const SizedBox(height: 20),
                 TextFormField(
-                  cursorColor: Colors.purple,
+                  cursorColor: Colors.blue.shade800,
                   controller: phoneController,
                   style: const TextStyle(
                     fontSize: 18,

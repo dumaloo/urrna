@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
         home: WelcomeScreen(),
-        title: "SIH Wool App",
+        title: "ऊर्णा",
       ),
     );
   }

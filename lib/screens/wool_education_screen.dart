@@ -8,108 +8,95 @@ class WoolEducationScreen extends StatelessWidget {
 
   final List<Article> articles = [
     Article(
-      title: 'The Science behind the wool industry',
-      description: 'Description for Article 1',
-      content:
-      """Introduction to Wool Production and Demand Sheep and wool production occurs in a number of areas
-  of the world. The production method, however, has been
-  considered somewhat diverse. Wool production can collectively be the production of keratin fibers from a range of animals. This can include the production of cashmere, alpaca,
-  mohair, angora, yak, elk, and camel fiber. Fiber characteristics from sheep wool can vary depending on the sheep breed,
-  its age, the environmental grazing conditions, local market
-  requirements, and export opportunities for the country
-  of origin.
-  On an international scale, wool production is a small trade
-  (Textile Exchange, 2019). The inception of manmade fibers in
-  the 1880s has seen considerable shrinkage in the textile market
-  share of wool. Wool production represents about 1% of the
-  global supply of textile fibers (Table 1). Apparel wool from
-  sheep contributes about half of that amount. The contribution
-  of wool has fallen by about half over the past 20 yr as wool
-  production has declined, and the production of manmade fibers has nearly doubled (IWTO, 2019).
-  Similarly, as wool production has decreased, there has
-  been a reduction in demand for woolen fabrics in the last
-  two decades (IWTO, 2019). Traditionally, apparel wool
-  was used either as outer knitwear or as woven suiting attire. Research indicates that there is a trend away from these
-  markets due to:
-  • Increasing casualization of the workforce;
-  • Limited trans-seasonal clothing options;
-  • Attitudes on discretionary spending during unfavorable economic conditions. Casualization of workforce Data show a consistent decreasing demand trend for woven suiting fabrics (IWTO, 2019). This is consistent with trend of the casualization of work wear and the importance of comfort and loungewear. This has been further compounded by recent requirements for employees to work from home due to recent COVID-19 pandemic restrictions.""",
+      title: 'Governmental schemes for wool development',
+      description: 'Click For Description',
+        content: """The Scheme for Pashmina Wool Development is designed to make a meaningful
+intervention given the potential of this area to produce Pashmina of fine quality. During the
+12th plan a special package with total financial provision of Rs.41.21 Crore has accordingly
+been introduced with the following objectives:
+ To provide the necessary inputs for breed improvement, training, health care and
+nutritional supplement for qualitative and quantitative improvement in Pashmina
+wool production;
+ To provide health care & nutritional supplement for the Pashmina goat.
+ To increase Pashmina goat population by distribution of male and female goats as
+foundation stock in non-traditional areas.
+ Establishment of Multi-purpose Extension Centers for nomads on migratory
+routes
+ Establishment of Pasture Farms for grazing of Pashmina goats during severe cold
+period especially on migratory routes.
+ Undertake Research & Development work for development of Pashmina wool.
+ To increase the income from Pashmina wool of the goat breeders and sustain their
+interest in this activity as a reliable means of livelihood.
+ To strengthen existing breeding farms and develop fodder farm/banks.
+ To strengthen existing Pashmina Dehairing Plant at Leh.
+ To increase Pashmina population growth rate from present 2% per annum (in last
+10 years) to 5% per annum with Pashmina population of 3 Lakhs at the end of 12th
+Plan.
+ To increase Pashmina fiber growth rate which is nearly 2% annually to 10% with
+total Pashmina fiber production of 65.0 Ton at the end of 12th Plan. """,
     ),
     Article(
-      title: 'Value and use of wool',
-      description: 'Description for Article 2',
-      content:
-      """ Wool has a number of physical properties that determine (a) its commercial value as a textile
-fibre, (b) the ease with which it can be processed into yarn, and (c) the products into which it
-can be converted. These properties will vary for wools obtained from different
-• Parts of the body of a sheep
-• Individual sheep in the same flock
-• Strains of sheep within a breed
-• Ages of sheep within a breed
-• Breeds
-• Environments (i.e. climate, terrain, pasture etc.)
-• Farming properties
-• Shearing regimes (timing, frequency, preparation procedures)
-• Geographic regions
-• Seasons of the year
-This list emphasises the fact that wool is a highly variable, natural, textile fibre. The following
-sections outline the properties of wool that are significant for its use as a major textile fibre. """,
+      title: 'Have a Birthing Kit Ready',
+      description: 'Click For Description',
+      content: """
+When you are breeding sheep, prepare a birthing kit. An easy to carry plastic bin is a good container for the supplies you might need. Many books on sheep breeding and care will have an all-inclusive list of items to have on hand. Here is a good start.
+
+Scissors for trimming the umbilical cord.
+
+Flashlights
+
+Obstetrical lubricant
+
+Betadine – Used for cleaning Ewe if you must help with delivery.
+
+Iodine – for dipping the end of the lamb’s umbilical cord
+
+Old towels
+
+Umbilical clamps or dental floss for tying off umbilical cords
+
+Newborn nasal syringe
+
+Rope to aid in pulling a lamb that is stuck
+
+Molasses or Nutri-drench product to revive the exhausted ewe
+
+Thermometer
+
+In addition to the above, having a baby bottle and extra nipples is a great time saver, if the lamb can’t nurse or the ewe becomes ill. Pritchard style teats are commonly used, although we have used regular human baby nipples too.
+
+Milk replacer and frozen colostrum, just in case.
+
+Feeding tube and syringe""",
     ),
     Article(
-      title: 'Learn about wool',
-      description: 'Description for Article 3',
-      content: """ This unit helps students explore the properties of
-Australia’s most iconic natural fibre — wool.
-Some students may have experience with wool through
-clothing or home furnishing, such as blankets. However
-many Foundation year students may not be aware of the
-source of wool textiles (sheep), the range of uses and the
-unique properties of wool, which make it an ideal textile
-for a wide range of uses.
-This unit of work aims to determine students’ prior
-knowledge of the properties of wool, increase their
-appreciation for these properties and raise their
-awareness of how the properties of materials influence
-their end use.
-In this unit of work, students will have the opportunity to
-develop skills in sorting and grouping materials on the
-basis of observable properties, such as texture and feel,
-flammability and water absorption.
-Students also will investigate the different forms of
-clothing used for different activities and explore how
-the unique properties of wool make it suitable for a wide
-range of clothing products.
-This unit of work also starts the process of students
-recognising that observation is an important part
-of exploring and investigating the things, while
-allowing them to share observations with others and
-communicating their experiences.
-A class science journal is used to record the students’
-learning journey and provides for meaningful
-literacy modelling. It is used to review and organise
-observations and ideas, and can include images and
-student contributions.
-Hands-on experiences and sharing observations with
-others are key ways to create meaningful, shared
-understandings, while individually students draw their
-observations and identify wants and needs in a roleplay game.
-Cross-curriculum priority:
-Sustainability
-Early lessons about the interdependence of animals,
-plants and people.
-Links with the Australian Curriculum
-This Properties of wool unit links to all three strands
-of the Australian Curriculum: Science — Science
-understanding, Science as a human endeavour and
-Science inquiry skills.
-The table below outlines the sub-strands covered in this
-un""",
+      title: 'India Wool Sector',
+      description: 'Click For Description',
+      content: """Amid the rising demand of import of wool, shepherds in Uttarakhand will get a batch of lambs through crossbreeding of sheep indigenous to the region with Australian Merino sheep by the end of the year.
+
+Australian Merino sheep are known to have the softest and finest wool used for apparels.
+The main trigger for import was the deteriorating quality and quantity of carpet and apparel grades wool, largely due to inbreeding.
+Key Points
+About:
+India is the seventh-largest producer of wool and accounts for nearly 2 to 3% of total world production.
+India has the third largest sheep population in the world with over 64 million sheep. The annual wool production is in the range of 43-46 million kg.
+Due to the insufficient domestic production, India depends on imports for raw wool, particularly on Australia and New Zealand.
+This wool is then used to prepare products like carpets, yarn, fabrics and garments for the domestic market and for exporting, especially to the United States and Europe.
+Rajasthan is the largest wool producer and is known for its superior carpet grade Chokla and Magra wool.
+Carpet grade is rougher than apparel grade and accounts for 85% of India’s production.
+Apparel grade wool accounts for less than 5% of production and coarse grade fit for making rough blankets accounts for the rest.
+Significance:
+The wool textile industry provides employment to 2.7 million workers - 1.2 million in the organised sector, 1.2 million in sheep rearing and farming, and 0.3 million weavers in the carpet sector.
+Challenges:
+Fall in use of Indigenous Wool:
+In the 10 years till 2020, wool consumption by the country’s processing units increased by 50%, but the use of indigenous wool fell to almost 10% of the total current sales in Bikaner (Rajasthan).
+""",
     ),
   ];
 
   final List<String> videoUrls = [
-    'https://www.youtube.com/watch?v=g3KNu7AkaIo', // Replace with your video URLs
-    'https://www.youtube.com/watch?v=9dl6bYR8IuE',
+    'https://www.youtube.com/watch?v=53KoRxxr1jc', // Replace with your video URLs
+    'https://www.youtube.com/watch?v=q2mH-PM5S4E',
     'https://www.youtube.com/watch?v=B9Jex1a5Cks',
     // Add more video URLs here...
   ];
@@ -155,7 +142,7 @@ un""",
                 enlargeCenterPage: true,
                 enableInfiniteScroll: true,
                 autoPlay: true,
-                autoPlayInterval: const Duration(seconds: 3),
+                autoPlayInterval: const Duration(seconds: 4),
                 autoPlayAnimationDuration: const Duration(milliseconds: 800),
                 autoPlayCurve: Curves.fastOutSlowIn,
                 scrollDirection: Axis.horizontal,
@@ -222,7 +209,7 @@ un""",
         builder: (context) => Scaffold(
           appBar: AppBar(
             title: Text(article.title),
-            backgroundColor: Colors.purple,
+            backgroundColor: Colors.blue.shade800,
           ),
           body: Padding(
             padding: const EdgeInsets.all(16.0),
@@ -234,13 +221,6 @@ un""",
                     article.content,
                     style: const TextStyle(fontSize: 16),
                   ),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.of(context)
-                        .pop(); // Return to the previous screen
-                  },
-                  child: const Text('Go Back'),
                 ),
               ],
             ),

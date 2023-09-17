@@ -26,13 +26,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  "assets/image1.png",
-                  height: 200,
-                ),
+                  ClipOval(
+                    child: Image.asset(
+                      "assets/8d9366123d8e11ee900f463033eedcd5.png",
+                      height: 200,
+                      width: 200,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 const SizedBox(height: 20),
                 const Text(
-                  "Welcome to the Wool Industry",
+                  "Welcome to ऊर्णा",
                   style: TextStyle(
                     fontSize: 26,
                     fontWeight: FontWeight.bold,
@@ -41,7 +45,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  "Explore our platform and connect with experts.",
+                  "ऊन उत्पादने विश्वस्य सर्वेषां सुखम्",
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey,

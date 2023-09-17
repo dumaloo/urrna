@@ -49,7 +49,7 @@ android {
         applicationId "com.example.sih_wool_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion 19 // Update to the required SDK version (e.g., 19)
+        minSdkVersion 20 // Update to the required SDK version (e.g., 19)
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

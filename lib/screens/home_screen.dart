@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:sih_wool_app/provider/auth_provider.dart';
+import 'package:sih_wool_app/screens/leader_board_screen.dart';
 import 'package:sih_wool_app/screens/welcome_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:sih_wool_app/screens/wool_education_screen.dart';
 import 'package:sih_wool_app/screens/wool_news_screen.dart';
 import 'package:sih_wool_app/screens/quality_assurance_screen.dart';
+import 'listing_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -20,8 +22,8 @@ class _HomeScreenState extends State<HomeScreen> {
     WoolNewsScreen(),
     const QualityAssuranceScreen(),
     WoolEducationScreen(),
-    const ExampleScreen(),
-    const ExampleScreen(),
+    LeaderBoardScreen(),
+    ListingScreen(),
   ];
 
   @override
@@ -30,8 +32,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
-        title: const Text("SIH Wool App"),
+        backgroundColor: Colors.blue.shade800,
+        title: const Text("ऊर्णा"),
         actions: [
           IconButton(
             onPressed: () {
@@ -57,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
           });
         },
         unselectedItemColor: Colors.grey, // Set the unselected item color
-        selectedItemColor: Colors.purple, // Set the selected item color
+        selectedItemColor: Colors.blue.shade800, // Set the selected item color
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.article), // Wool News icon
@@ -72,12 +74,12 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Wool Education',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.star), // Example icon
-            label: 'Example 1',
+            icon: Icon(Icons.leaderboard), // Example icon
+            label: 'Ranking',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.star), // Example icon
-            label: 'Example 2',
+            icon: Icon(Icons.shopping_cart_checkout), // Example icon
+            label: 'Checkout',
           ),
         ],
       ),
@@ -85,15 +87,3 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-//Example Screen
-class ExampleScreen extends StatelessWidget {
-  const ExampleScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    // Your Example screen content goes here
-    return const Center(
-      child: Text("Example Screen"),
-    );
-  }
-}
