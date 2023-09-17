@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-void main() {
-  runApp(WoolNewsScreen());
-}
-
 class WoolNewsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -71,6 +67,7 @@ class WoolNewsScreen extends StatelessWidget {
     );
   }
 }
+
 class PriceListScreen extends StatelessWidget {
   final List<Map<String, dynamic>> woolData;
 
@@ -80,9 +77,9 @@ class PriceListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Extract dates and prices from the woolData
     final List<String> dates =
-    woolData.map((data) => data["Date"].toString()).toList();
+        woolData.map((data) => data["Date"].toString()).toList();
     final List<double> prices =
-    woolData.map((data) => data["Value"] as double).toList();
+        woolData.map((data) => data["Value"] as double).toList();
 
     // Calculate the current price (latest entry)
     final double currentPrice = prices.isNotEmpty ? prices.last : 0.0;
