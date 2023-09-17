@@ -19,11 +19,11 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    WoolNewsScreen(),
+    const WoolNewsScreen(),
     const QualityAssuranceScreen(),
     WoolEducationScreen(),
-    LeaderBoardScreen(),
-    ListingScreen(),
+    const LeaderBoardScreen(),
+    const ListingScreen(),
   ];
 
   @override

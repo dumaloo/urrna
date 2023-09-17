@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(LeaderBoardScreen());
+  runApp(const LeaderBoardScreen());
 }
 
 class LeaderBoardScreen extends StatelessWidget {
+  const LeaderBoardScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Ranking',
       home: RankingScreen(),
@@ -16,6 +18,8 @@ class LeaderBoardScreen extends StatelessWidget {
 }
 
 class RankingScreen extends StatelessWidget {
+  const RankingScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -47,7 +51,7 @@ class RankingScreen extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 20),
-              Container(
+              SizedBox(
                 height: 10,
                 width: 350,
                 child: Stack(

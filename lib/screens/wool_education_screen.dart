@@ -160,7 +160,7 @@ In the 10 years till 2020, wool consumption by the country’s processing units 
               ),
             ),
             const SizedBox(height: 10),
-            Container(
+            SizedBox(
               height: 400,
               child: ListView(
                 children: [
@@ -248,7 +248,7 @@ class Article {
 class VideoPlayerWidget extends StatelessWidget {
   final String videoUrl;
 
-  VideoPlayerWidget({required this.videoUrl});
+  const VideoPlayerWidget({super.key, required this.videoUrl});
 
   @override
   Widget build(BuildContext context) {
@@ -264,7 +264,7 @@ class VideoPlayerWidget extends StatelessWidget {
         ),
         builder: (context, player) {
           return Card(
-            child: Container(
+            child: SizedBox(
               width: 300, // Set the desired width for each video item
               child: player,
             ),
@@ -298,10 +298,10 @@ class VideoPlayerWidget extends StatelessWidget {
                 );
                 controller.play();
               },
-              child: Card(
-                child: Container(
+              child: const Card(
+                child: SizedBox(
                   width: 300, // Set the desired width for each video item
-                  child: const Center(
+                  child: Center(
                     child: Text(
                       'Other Video Thumbnail',
                       style: TextStyle(fontSize: 16),

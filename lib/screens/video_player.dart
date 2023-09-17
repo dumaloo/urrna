@@ -4,7 +4,7 @@ import 'package:video_player/video_player.dart';
 class VideoPlayerWidget extends StatefulWidget {
   final String videoUrl;
 
-  VideoPlayerWidget({required this.videoUrl});
+  const VideoPlayerWidget({super.key, required this.videoUrl});
 
   @override
   _VideoPlayerWidgetState createState() => _VideoPlayerWidgetState();
@@ -26,7 +26,7 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
   Widget build(BuildContext context) {
     return ListView(
       shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(), // Prevents scrolling
+      physics: const NeverScrollableScrollPhysics(), // Prevents scrolling
       children: [
         AspectRatio(
           aspectRatio: _controller.value.aspectRatio,

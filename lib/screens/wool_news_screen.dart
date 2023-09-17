@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class WoolNewsScreen extends StatelessWidget {
+  const WoolNewsScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Wool Price App',
       home: PriceListScreen(
-        woolData: const [
+        woolData: [
           {
             "Date": "2023-05-31",
             "Value": 897.67,
@@ -71,7 +73,7 @@ class WoolNewsScreen extends StatelessWidget {
 class PriceListScreen extends StatelessWidget {
   final List<Map<String, dynamic>> woolData;
 
-  PriceListScreen({required this.woolData});
+  const PriceListScreen({super.key, required this.woolData});
 
   @override
   Widget build(BuildContext context) {

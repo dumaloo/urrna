@@ -175,7 +175,7 @@ class QualityAssuranceScreenState extends State<QualityAssuranceScreen> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.grey,
                       ),
-                      child: Text('Previous'),
+                      child: const Text('Previous'),
                     ),
                   ElevatedButton(
                     onPressed: () {
