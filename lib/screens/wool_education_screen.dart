@@ -10,7 +10,8 @@ class WoolEducationScreen extends StatelessWidget {
     Article(
       title: 'Governmental schemes for wool development',
       description: 'Click For Description',
-        content: """The Scheme for Pashmina Wool Development is designed to make a meaningful
+      content:
+          """The Scheme for Pashmina Wool Development is designed to make a meaningful
 intervention given the potential of this area to produce Pashmina of fine quality. During the
 12th plan a special package with total financial provision of Rs.41.21 Crore has accordingly
 been introduced with the following objectives:
@@ -25,14 +26,14 @@ routes
  Establishment of Pasture Farms for grazing of Pashmina goats during severe cold
 period especially on migratory routes.
  Undertake Research & Development work for development of Pashmina wool.
- To increase the income from Pashmina wool of the goat breeders and sustain their
+To increase the income from Pashmina wool of the goat breeders and sustain their
 interest in this activity as a reliable means of livelihood.
- To strengthen existing breeding farms and develop fodder farm/banks.
- To strengthen existing Pashmina Dehairing Plant at Leh.
- To increase Pashmina population growth rate from present 2% per annum (in last
+To strengthen existing breeding farms and develop fodder farm/banks.
+To strengthen existing Pashmina Dehairing Plant at Leh.
+To increase Pashmina population growth rate from present 2% per annum (in last
 10 years) to 5% per annum with Pashmina population of 3 Lakhs at the end of 12th
 Plan.
- To increase Pashmina fiber growth rate which is nearly 2% annually to 10% with
+To increase Pashmina fiber growth rate which is nearly 2% annually to 10% with
 total Pashmina fiber production of 65.0 Ton at the end of 12th Plan. """,
     ),
     Article(
@@ -72,7 +73,8 @@ Feeding tube and syringe""",
     Article(
       title: 'India Wool Sector',
       description: 'Click For Description',
-      content: """Amid the rising demand of import of wool, shepherds in Uttarakhand will get a batch of lambs through crossbreeding of sheep indigenous to the region with Australian Merino sheep by the end of the year.
+      content:
+          """Amid the rising demand of import of wool, shepherds in Uttarakhand will get a batch of lambs through crossbreeding of sheep indigenous to the region with Australian Merino sheep by the end of the year.
 
 Australian Merino sheep are known to have the softest and finest wool used for apparels.
 The main trigger for import was the deteriorating quality and quantity of carpet and apparel grades wool, largely due to inbreeding.
@@ -167,7 +169,7 @@ In the 10 years till 2020, wool consumption by the country’s processing units 
                         vertical: 15.0), // Add vertical padding
                     child: Column(
                       crossAxisAlignment:
-                      CrossAxisAlignment.center, // Align videos to the left
+                          CrossAxisAlignment.center, // Align videos to the left
                       children: videoUrls.map((videoUrl) {
                         return Padding(
                           padding: const EdgeInsets.all(
